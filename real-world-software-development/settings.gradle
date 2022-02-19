@@ -1,0 +1,4 @@
+rootProject.name = 'real-world-software-development'
+
+include 'bank-state-machine'
+
