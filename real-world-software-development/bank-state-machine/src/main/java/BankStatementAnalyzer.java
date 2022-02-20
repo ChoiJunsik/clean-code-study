@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 import java.time.Month;
 import java.util.List;
 import parser.BankStatementCSVParser;
+import parser.BankStatementParser;
 import processor.BankStatementProcessor;
 
 public class BankStatementAnalyzer {
@@ -13,16 +14,25 @@ public class BankStatementAnalyzer {
 	private static final String RESOURCES = "src/main/resources/";
 
 	public static void main(String[] args) throws IOException {
-		final String fileName = args[0];
+
+		final BankStatementAnalyzer bankStatementAnalyzer = new BankStatementAnalyzer();
+
+		// DI
+		final BankStatementParser bankStatementParser = new BankStatementCSVParser();
+
+		bankStatementAnalyzer.analyze(args[0], bankStatementParser);
+	}
+
+
+	public void analyze(final String fileName, final BankStatementParser bankStatementParser)
+			throws IOException {
 		final Path path = Paths.get(RESOURCES + fileName);
 		final List<String> lines = Files.readAllLines(path);
 
-		final List<BankTransaction> bankTransactions = BankStatementCSVParser.parseLinesFromCSV(
-				lines);
+		final List<BankTransaction> bankTransactions = bankStatementParser.parseLinesFrom(lines);
 
 		collectSummary(bankTransactions);
 	}
-
 	private static void collectSummary(List<BankTransaction> bankTransactions) {
 		System.out.println(
 				"The Total for all transactions is " + BankStatementProcessor.calculateTotalAmount(
