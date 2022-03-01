@@ -5,7 +5,6 @@ import static domain.attributes.Attributes.PATH;
 import static domain.attributes.Attributes.WIDTH;
 import static domain.attributes.Attributes.TYPE;
 
-import domain.Document;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
