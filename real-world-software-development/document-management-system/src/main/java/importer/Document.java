@@ -1,4 +1,4 @@
-package domain.importer;
+package importer;
 
 import java.util.Map;
 

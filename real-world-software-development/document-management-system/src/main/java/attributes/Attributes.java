@@ -1,4 +1,4 @@
-package domain.attributes;
+package attributes;
 
 public class Attributes {
 
