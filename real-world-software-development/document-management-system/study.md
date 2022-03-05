@@ -20,7 +20,7 @@
 *Self 정리*
 
 5. TextFile 의 목적
-   - Text 형식의 File 을 import 하는 Invoice/Letter/Report Importer
+   - Text 형식의 File 을 import 하는 Invoice/Letter/engine.Report Importer
      - 공통적으로 파일을 파싱해서 lines 와 attributes 객체를 구성해야하는 기능이 필요함
      - TextImporter 를 만들어 상속 : LSP 규칙은 따르지만, 비즈니스 흐름에 따라 상속이 깨질 수 있다 => (Invoice가 갑자기 Image 형식으로 바뀐다면?)
      - 유틸리티 클래스 : ImportUtil 클래스를 만든다 => 온갖 코드가 모인 God Class 가 될 수 있다

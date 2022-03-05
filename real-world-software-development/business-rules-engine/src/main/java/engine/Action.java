@@ -1,3 +1,5 @@
+package engine;
+
 @FunctionalInterface
 public interface Action {
 
