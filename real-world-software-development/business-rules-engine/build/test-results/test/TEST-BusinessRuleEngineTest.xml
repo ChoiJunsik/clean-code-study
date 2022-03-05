@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BusinessRuleEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-05T02:01:03" hostname="A202111076.local" time="0.554">
+  <properties/>
+  <testcase name="shouldExecuteOneAction()" classname="BusinessRuleEngineTest" time="0.554"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
