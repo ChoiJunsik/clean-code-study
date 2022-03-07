@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/bank-state-machine" />
             <option value="$PROJECT_DIR$/business-rules-engine" />
             <option value="$PROJECT_DIR$/document-management-system" />
+            <option value="$PROJECT_DIR$/micro-blogging-pojo" />
           </set>
         </option>
       </GradleProjectSettings>
