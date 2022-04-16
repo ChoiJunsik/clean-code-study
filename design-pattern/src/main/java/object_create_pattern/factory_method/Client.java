@@ -6,8 +6,8 @@ public class Client {
 
 		Client client = new Client();
 
-		client.print(new WarRobotFactory(),"junsik1", "junsik1@choi.com");
-		client.print(new HumanoidRobotFactory(),"junsik2", "junsik2@choi.com");
+//		client.print(new WarRobotFactory(),"junsik1", "junsik1@choi.com");
+//		client.print(new HumanoidRobotFactory(),"junsik2", "junsik2@choi.com");
 	}
 
 	private void print(RobotFactory robotFactory, String name, String email) {
