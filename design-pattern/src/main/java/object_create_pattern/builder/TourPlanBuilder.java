@@ -2,13 +2,13 @@ package object_create_pattern.builder;
 
 public interface TourPlanBuilder {
 
-    TourPlanBuilder title(String title);
+	TourPlanBuilder title(String title);
 
-    TourPlanBuilder nightsAndDays(int nights, int days);
+	TourPlanBuilder nightsAndDays(int nights, int days);
 
-    TourPlanBuilder whereToStay(String whereToStay);
+	TourPlanBuilder whereToStay(String whereToStay);
 
-    TourPlanBuilder addPlan(int days, String plan);
+	TourPlanBuilder addPlan(int days, String plan);
 
-    TourPlan getPlan();
+	TourPlan getPlan();
 }
