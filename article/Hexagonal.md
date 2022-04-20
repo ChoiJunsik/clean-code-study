@@ -48,7 +48,7 @@ ex. Spring Data Jpa, 우리는 Port를 구현한다, 어댑터는 Spring Data Jp
 
 adaptor는 자주 변동된다
 
-핵심 도메인과을 Adaptor와 도메인을 연결하는 Port 는 변경을 최소화 해야한다
+핵심 도메인과 Adaptor를 연결하는 Port 는 변경을 최소화 해야한다
 
 인터페이스의 커맨드 경계선을 명확화 해야한다
 
