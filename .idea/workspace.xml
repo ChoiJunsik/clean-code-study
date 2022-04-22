@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb9789fa-47f9-4e6f-aeab-68eb69cd0330" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-architecture/계층형 아키텍처의 문제는 무엇일까.md" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-architecture/계층형 아키텍처의 문제는 무엇일까.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <workItem from="1650507900065" duration="938000" />
       <workItem from="1650509001433" duration="297000" />
       <workItem from="1650509685139" duration="6655000" />
-      <workItem from="1650520215038" duration="659000" />
+      <workItem from="1650520215038" duration="1596000" />
     </task>
     <servers />
   </component>
