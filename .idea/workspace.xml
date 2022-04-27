@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb9789fa-47f9-4e6f-aeab-68eb69cd0330" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-architecture/유즈케이스 구현하기.md" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-architecture/유즈케이스 구현하기.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,11 @@
       <workItem from="1650681652990" duration="1033000" />
       <workItem from="1650683002719" duration="258000" />
       <workItem from="1650778234907" duration="291000" />
-      <workItem from="1650780945979" duration="1694000" />
+      <workItem from="1650780945979" duration="1755000" />
+      <workItem from="1650876885167" duration="176000" />
+      <workItem from="1651022471577" duration="2258000" />
+      <workItem from="1651038560505" duration="1403000" />
+      <workItem from="1651040258143" duration="210000" />
     </task>
     <servers />
   </component>
